@@ -33,7 +33,7 @@ Modders can view the full release of T4M [here](https://www.ugx-mods.com/forum/i
 
 ## Installation
 Installing the T4M mod is extremely simple:
-> Drag the d9d9.dll into World at War's root directory
+> Drag the [d3d9.dll](https://github.com/Martos/T4M/releases) into World at War's root directory
 
 ## Developers:
 - DidUknowiPwn
