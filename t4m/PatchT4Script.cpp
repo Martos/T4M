@@ -21,6 +21,7 @@ dvar_t** developer_script = (dvar_t**)0x01F9646C;
 dvar_t** logfile = (dvar_t**)0x01F552BC;
 
 dvar_t* developer_funcdump;
+dvar_t* ce_welcome_dialog;
 
 // custom functions
 typedef struct
@@ -226,6 +227,7 @@ void GScr_PrintLnConsole(scr_entref_t entity)
 void PatchT4_Script()
 {
 	developer_funcdump = Dvar_RegisterBool(0, "developer_funcdump", 0, "Dump script function information (engine).");
+	ce_welcome_dialog = Dvar_RegisterBool(1, "ce_welcome", 0, "Show C.E. welcome dialog.");
 
 	// [GSC]
 	Detours::X86::DetourFunction((PBYTE)0x00682DAF, (PBYTE)&Scr_GetFunction_Hook, Detours::X86Option::USE_CALL);
