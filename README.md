@@ -33,7 +33,7 @@ Modders can view the full release of T4M [here](https://www.ugx-mods.com/forum/i
 
 ## Installation
 Installing the T4M mod is extremely simple:
-> Drag the (DLL)[https://www.mediafire.com/download/9p1zcena5seqfzp/T4M_r45_%5BRelease%5D.rar] from the RAR into World at War's root directory
+> Drag the d9d9.dll into World at War's root directory
 
 ## Developers:
 - DidUknowiPwn
@@ -45,10 +45,10 @@ Installing the T4M mod is extremely simple:
 - HitmanVere
 - Ray1235
 - ProGamerzFTW
+- Martos
 
 ## Notes
 - No Border: Enter this into console to enable no border -> r_fullscreen 0;vid_xpos 0;vid_ypos 0;r_noborder 1;vid_restart
-- Revision 45 of the DLL
 - Confirmed weapon limit to work along with every other asset limitation
 - Mods created that pass the asset limits require users to have T4M
 - Steam and "LanFixed" versions of the game will work with the mod not the CD version
