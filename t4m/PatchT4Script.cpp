@@ -231,7 +231,7 @@ void PatchT4_Script()
 	developer_funcdump = Dvar_RegisterBool(0, "developer_funcdump", 0, "Dump script function information (engine).");
 	ce_welcome_dialog = Dvar_RegisterBool(1, "ce_welcome", 0, "Show C.E. welcome dialog.");
 	xenon_hud = Dvar_RegisterBool(0, "ui_ce_xenon_hud", 0, "(EXPERIMENTAL) Enable Xbox 360 HUD.");
-	ce_t4m = Dvar_RegisterBool(0, "ce_t4m", 1, "Check if T4M is in CE version.");
+	ce_t4m = Dvar_RegisterBool(1, "ce_t4m", 0, "Check if T4M is in CE version.");
 
 	// [GSC]
 	Detours::X86::DetourFunction((PBYTE)0x00682DAF, (PBYTE)&Scr_GetFunction_Hook, Detours::X86Option::USE_CALL);
